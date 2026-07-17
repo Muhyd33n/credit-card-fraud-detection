@@ -41,7 +41,7 @@ across all decision thresholds, not just the default.
 
 ## Key Takeaway
 
-The two models represent different points on the precision/recall trade-off — logistic regression 
+The two models represent different points on the precision/recall trade-off. Logistic regression 
 catches more fraud but with far more false alarms; random forest is more selective. In practice, 
 the right choice depends on business priorities: cost of missed fraud vs. cost of alert fatigue 
 on a fraud review team.
