@@ -1,12 +1,12 @@
 # Credit Card Fraud Detection
 
 A machine learning project detecting fraudulent credit card transactions using real-world, 
-anonymized transaction data — built to explore how to handle severe class imbalance, a common 
+anonymized transaction data, built to explore how to handle severe class imbalance, a common 
 challenge in fintech risk/fraud modeling.
 
 ## The Problem
 
-Fraud is rare — in this dataset, only 0.17% of transactions (492 out of 284,807) are fraudulent. 
+Fraud is rare in this dataset, only 0.17% of transactions (492 out of 284,807) are fraudulent. 
 This makes standard classification approaches misleading: a model predicting "not fraud" for 
 every transaction would score 99.8% accuracy while catching zero fraud. This project focuses on 
 handling that imbalance properly and evaluating with metrics that actually reflect real-world 
