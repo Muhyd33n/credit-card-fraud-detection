@@ -25,7 +25,7 @@ usefulness.
 3. Trained and compared two models:
    - Logistic Regression (baseline, `class_weight='balanced'`)
    - Random Forest (`class_weight='balanced'`, 100 trees)
-4. Evaluated using precision, recall, F1, and a precision-recall curve — not accuracy, 
+4. Evaluated using precision, recall, F1, and a precision-recall curve; not accuracy, 
    which is misleading on imbalanced data
 5. Examined feature importance to identify which anonymized features drove predictions
 
